@@ -1,3 +1,9 @@
+'''
+Reference:
+1. github.com/cosinekitty/astronomy
+2. Meeus, J. (1998). Astronomical Algorithms (2nd ed.). Richmond, VA: Willmann-Bell.
+Author: Danh Hong (danhhong@gmail.com
+'''
 import math
 import datetime
 
@@ -80,14 +86,14 @@ def gregorian_to_jd(day, month, year):
     jd = day + (153 * m + 2) // 5 + 365 * y + y // 4 - y // 100 + y // 400 - 32045
     return jd
 
-# Calculate the mean lunar month (synodic month, ~29.530588853 days)
+# Calculate the mean lunar month (synodic month, ~29.530588853 days) (1)
 def get_new_moon_day(k, timezone=7.0):
     T = k / 1236.85
     JDE = 2451550.09766 + 29.530588861 * k + 0.00015437 * T**2 - 0.000000150 * T**3 + 0.00000000073 * T**4
     JDE += timezone / 24.0
     return math.floor(JDE + 0.5)
 
-# Calculate solar longitude for a given JDN
+# Calculate solar longitude for a given JDN (2)
 def get_sun_longitude(jd):
     T = (jd - 2451545.0) / 36525.0
     L0 = 280.46646 + 36000.76983 * T + 0.0003032 * T**2
