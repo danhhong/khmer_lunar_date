@@ -192,9 +192,8 @@ def gregorian_to_khmer_lunar(day, month, year):
 def Khmer_Lunar_Date():
     result = gregorian_to_khmer_lunar(dd, mm, yyyy)
     return f"ថ្ងៃ{day_name} {result['lunar_day']} ខែ{result['lunar_month']} ឆ្នាំ{result['zodiac_year']} {result['stem']} ព.ស. {result['lunar_year']}"
-'''
+
 # Example usage
 if __name__ == "__main__":
     khmerdate = Khmer_Lunar_Date()
     print(khmerdate)
-'''
