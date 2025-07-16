@@ -2,7 +2,8 @@
 Reference:
 1. github.com/cosinekitty/astronomy
 2. Meeus, J. (1998). Astronomical Algorithms (2nd ed.). Richmond, VA: Willmann-Bell.
-Author: Danh Hong (danhhong@gmail.com
+Author: Danh Hong (danhhong@gmail.com)
+Date: 7/16/2025
 '''
 import math
 import datetime
