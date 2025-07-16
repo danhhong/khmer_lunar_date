@@ -14,13 +14,13 @@ This project is created to support Cambodian culture and make Khmer calendar log
 
 ## ✨ Features
 
-- 🗓 Convert today's Gregorian date to Khmer lunar date
-- 🌙 Accurate new moon calculation for lunar day
-- 📈 Detect leap months using solar longitude
-- 🐅 Show Khmer zodiac animal and heavenly stem
-- 🔢 Convert all numbers to Khmer numerals
-- 🧘 Output Buddhist year (ព.ស.)
-- 📆 Localized Khmer weekday name
+- Convert today's Gregorian date to Khmer lunar date
+- Accurate new moon calculation for lunar day
+- Detect leap months using solar longitude
+- Show Khmer zodiac animal and heavenly stem
+- Convert all numbers to Khmer numerals
+- Output Buddhist year (ព.ស.)
+- Localized Khmer weekday name
 
 ---
 
