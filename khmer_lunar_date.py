@@ -1,7 +1,8 @@
 '''
-Reference:
-1. github.com/cosinekitty/astronomy
-2. Meeus, J. (1998). Astronomical Algorithms (2nd ed.). Richmond, VA: Willmann-Bell.
+References:
+Jean Meeus, Astronomical Algorithms, Willmann-Bell, 2nd edition, 1998
+U.S. Naval Observatory: Explanatory Supplement to the Astronomical Almanac
+NASA’s lunar phase algorithm notes, sometimes used in calendars and software
 Author: Danh Hong (danhhong@gmail.com)
 Date: 7/16/2025
 '''
