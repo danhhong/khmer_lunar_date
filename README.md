@@ -6,9 +6,9 @@ This project is created to support Cambodian culture and make Khmer calendar log
 
 ---
 
-## 🙏 Sponsored by Hun Wannak
+## 🙏 Sponsored by Hun Vannak
 
-> This open-source project is proudly sponsored by **Hun Wannak**, who supports the preservation of Khmer heritage through technology and innovation.
+> This open-source project is proudly sponsored by **Hun Vannak**, who supports the preservation of Khmer heritage through technology and innovation.
 
 ---
 
