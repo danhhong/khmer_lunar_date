@@ -7,6 +7,7 @@ Author: Danh Hong (danhhong@gmail.com)
 Date: 7/16/2025
 """
 
+import datetime
 import math
 
 khmer_day_string = {
@@ -266,3 +267,14 @@ def gregorian_to_khmer_lunar(day, month, year):
     "zodiac_year": zodiac_year,
     "stem": stem,
   }
+
+
+def today():
+  date = datetime.datetime.today()
+  dd = date.day
+  mm = date.month
+  yyyy = date.year
+  day_name = date.strftime("%A")
+  day_name = khmer_day_of_week[day_name]
+  result = gregorian_to_khmer_lunar(dd, mm, yyyy)
+  return f"ថ្ងៃ{day_name} {result['lunar_day']} ខែ{result['lunar_month']} ឆ្នាំ{result['zodiac_year']} {result['stem']} ព.ស. {result['lunar_year']}"

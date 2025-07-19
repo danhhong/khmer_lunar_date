@@ -38,7 +38,7 @@ pip install git+https://github.com/danhhong/khmer_lunar_date.git
 
 ```python
 import datetime
-from khmerdate import gregorian_to_khmer_lunar, khmer_day_of_week
+from khmerdate import gregorian_to_khmer_lunar, khmer_day_of_week, today
 
 day, month, year = 1, 7, 2025
 
@@ -62,4 +62,7 @@ result_fmt = f"ថ្ងៃ{day_name} {result['lunar_day']} ខែ{result['lunar
 
 print(result_fmt)
 # => ថ្ងៃអង្គារ ៦កើត ខែអាសាឍ ឆ្នាំម្សាញ់ សប្តស័ក ព.ស. ២៥៦៩
+
+print(today())
+# => ថ្ងៃសៅរ៍ ៩រោច ខែអាសាឍ ឆ្នាំម្សាញ់ សប្តស័ក ព.ស. ២៥៦៩
 ```
