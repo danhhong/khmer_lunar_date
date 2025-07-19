@@ -1,5 +1,5 @@
 import datetime
-from khmerdate import gregorian_to_khmer_lunar, khmer_day_of_week
+from khmerdate import gregorian_to_khmer_lunar, khmer_day_of_week, today
 
 
 def test_get_today_simple():
@@ -15,3 +15,7 @@ def test_get_today_simple():
   result_fmt = f"ថ្ងៃ{day_name} {result['lunar_day']} ខែ{result['lunar_month']} ឆ្នាំ{result['zodiac_year']} {result['stem']} ព.ស. {result['lunar_year']}"
 
   assert result_fmt == "ថ្ងៃសៅរ៍ ៩រោច ខែអាសាឍ ឆ្នាំម្សាញ់ សប្តស័ក ព.ស. ២៥៦៩"
+
+
+def test_today():
+  assert isinstance(today(), str)
