@@ -19,6 +19,3 @@ def test_get_today_simple():
 
 def test_today():
   assert isinstance(today(), str)
-
-
-print(today())
