@@ -1,7 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "khmerdate"
-version = "0.1.0"
+version = "0.1.1"
 authors = [{ name = "Danh Hong", email = "danhhong@gmail.com" }]
 description = "Khmer Lunar Date Converter"
 readme = "README.md"
@@ -14,11 +17,16 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 
+dependencies = []
+
 [project.urls]
 repository = "https://github.com/danhhong/khmer_lunar_date"
 
+[tool.setuptools]
+include-package-data = true
+
 [tool.setuptools.packages.find]
-where = ["khmerdate"]
+where = ["src"]
 
 [tool.ruff]
 indent-width = 2
