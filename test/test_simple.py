@@ -1,5 +1,5 @@
 import datetime
-from src import gregorian_to_khmer_lunar, khmer_day_of_week
+from khmerdate import gregorian_to_khmer_lunar, khmer_day_of_week
 
 
 def test_get_today_simple():

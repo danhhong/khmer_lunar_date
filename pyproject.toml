@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "khmerdate"
-version = "0.1.1"
+version = "0.1.2"
 authors = [{ name = "Danh Hong", email = "danhhong@gmail.com" }]
 description = "Khmer Lunar Date Converter"
 readme = "README.md"
