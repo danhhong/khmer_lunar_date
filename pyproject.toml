@@ -19,3 +19,6 @@ repository = "https://github.com/danhhong/khmer_lunar_date"
 
 [tool.setuptools.packages.find]
 where = ["khmerdate"]
+
+[tool.ruff]
+indent-width = 2
