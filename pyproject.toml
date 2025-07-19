@@ -8,6 +8,7 @@ version = "0.1.1"
 authors = [{ name = "Danh Hong", email = "danhhong@gmail.com" }]
 description = "Khmer Lunar Date Converter"
 readme = "README.md"
+requires-python = ">=3.7"
 
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -26,7 +27,7 @@ repository = "https://github.com/danhhong/khmer_lunar_date"
 include-package-data = true
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["."]
 
 [tool.ruff]
 indent-width = 2
